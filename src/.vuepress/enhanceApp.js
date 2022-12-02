@@ -12,4 +12,10 @@ export default ({
   siteData // site metadata
 }) => {
   // ...apply enhancements for the site.
+
+  router.afterEach((to, from, next) => {
+    if (from.path == '/' && to.path == '/' && navigator.language.startsWith("ru")) {
+      window.location.replace("/ru/")
+    }
+  })
 }

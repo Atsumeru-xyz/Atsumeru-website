@@ -2,7 +2,6 @@ const { description } = require('../../package')
 const pluginsConfig = require("./config/plugins");
 
 module.exports = {
-  base: '/Atsumeru-website/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -280,5 +279,5 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: pluginsConfig,
+  plugins: pluginsConfig
 }
