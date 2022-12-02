@@ -13,9 +13,15 @@ export default ({
 }) => {
   // ...apply enhancements for the site.
 
-  router.afterEach((to, from, next) => {
-    if (from.path == '/' && to.path == '/' && navigator.language.startsWith("ru")) {
-      window.location.replace("/ru/")
-    }
-  })
+  if (!isNodeEnv()) {
+    router.afterEach((to, from, next) => {
+      if (from.path == '/' && to.path == '/' && navigator.language.startsWith("ru")) {
+        window.location.replace("/ru/")
+      }
+    })
+  }
+}
+
+function isNodeEnv() {
+    return !(typeof window != 'undefined' && window.document);
 }
