@@ -2,7 +2,7 @@
 
 ## Changing port
 
-By default, **Atsumeru** starts on port `31337`, but, sometimes, you may need to change it (port is busy, not suitable, you need to start several servers). To change port, add flag `-Dserver.port=<port>` to server start command, where `<port>` is desired port. For example:
+By default, `Atsumeru` starts on port `31337`, but, sometimes, you may need to change it (port is busy, not suitable, you need to start several servers). To change port, add flag `-Dserver.port=<port>` to server start command, where `<port>` is desired port. For example:
 ```
 java -Dserver.port=<port> -jar Atsumeru-x.y.z.jar
 ```
@@ -75,7 +75,7 @@ By default: `false`
 Completely disables server discovery service using `Bonjour/Zeroconf` protocol ([Bonjour](https://github.com/mannodermaus/RxBonjour))
 
 :::c-tip
-When service is enabled, **Atsumeru** supported applications will be able (if implemented) to detect server in local network for fast connection
+When service is enabled, `Atsumeru` supported applications will be able (if implemented) to detect server in local network for fast connection
 :::
 
 By default: `false`

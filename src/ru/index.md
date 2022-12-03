@@ -2,7 +2,7 @@
 home: true
 heroText: Atsumeru (集める)
 heroImage: /assets/media/hero.png
-tagline: Бесплатный самостоятельно размещаемый медиа-сервер манги/комиксов/ранобэ
+tagline: Бесплатный самостоятельно размещаемый медиа-сервер манги/комиксов/ранобэ с открытым исходным кодом
 actionText: Начнем →
 actionLink: /ru/guides/
 features:

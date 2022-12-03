@@ -1,6 +1,6 @@
 # Connecting to a server
 
-Once **Atsumeru** is running, `REST API` can be accessed from applications by `http://<ip/server address>:<port>`
+Once `Atsumeru` is running, `REST API` can be accessed from applications by `http://<ip/server address>:<port>`
 
 :::c-tip
 When running server locally (for example, when connecting to server from device on which it is running), `<ip/server address>` will be `localhost`

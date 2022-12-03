@@ -15,8 +15,12 @@ export default ({
 
   if (!isNodeEnv()) {
     router.afterEach((to, from, next) => {
-      if (from.path == '/' && to.path == '/' && navigator.language.startsWith("ru")) {
-        window.location.replace("/ru/")
+      if (from.path == '/' && to.path == '/') {
+        if (navigator.language.toLowerCase().includes("ua")) {
+          window.location.replace("/ua/")
+        } else if (navigator.language.toLowerCase().includes("ru")) {
+          window.location.replace("/ru/")
+        }
       }
     })
   }

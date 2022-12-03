@@ -56,7 +56,7 @@ You can open editor in several ways:
 
 Editor is intuitive and provides access to all possible metadata fields in [book_info.json](./metadata.md#book-info-json) format, but a little clarification is needed:
 - field `Alternative title` suggests writing title in your language
-- `Rating` field is worth filling in if you're linking your content to external "database services" like [Shikimori](https://shikimori.one/), [MyAnimeList](https://myanimelist.net/), [ComicVine](https://comicvine.gamespot.com/), etc. This field means a position of content in a rating of such services
+- `Rating` field is worth filling in if you're linking your content to external *database services* like [Shikimori](https://shikimori.one/), [MyAnimeList](https://myanimelist.net/), [ComicVine](https://comicvine.gamespot.com/), etc. This field means a position of content in a rating of such services
 - field `Rating` means average rating of content on a ten-point scale with a floating point
 - `Volume` field is not available while editing `Serie`. `Atsumeru` will use this value from `Archive` metadata or try to determine it itself from file name
 
@@ -67,7 +67,7 @@ All fields have an extended context menu with additional functions:
 
 #### Bounded services
 
-At the bottom of window there is a section `Bounded services`, which displays a list of fields of external services supported by `Atsumeru`, which can be `linked` to content. It can be useful for fast binding of client-side content to tracking services like [Shikimori](https://shikimori.one/), [MyAnimeList](https://myanimelist.net/) and others
+At the bottom of window there is a section `Bounded services`, which displays a list of fields of external services supported by `Atsumeru`, which can be *linked* to content. It can be useful for fast binding of client-side content to tracking services like [Shikimori](https://shikimori.one/), [MyAnimeList](https://myanimelist.net/) and others
 
 :::c-tip.
 Each field has auto-complete functions. You just need to insert link/content ID into corresponding field, and second field will be filled in automatically

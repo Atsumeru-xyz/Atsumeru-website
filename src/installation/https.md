@@ -1,6 +1,6 @@
 # HTTPS
 
-If you want to access **Atsumeru** server outside of local network, it is strongly recommended to protect requests to it with `https` (especially since the main authorization method is `Basic`)
+If you want to access `Atsumeru` server outside of local network, it is strongly recommended to protect requests to it with `https` (especially since the main authorization method is `Basic`)
 
 [Spring Boot](https://spring.io/projects/spring-boot), which is the heart of server, supports `https` out of the box, but you must configure it yourself, and self-signed certificates are not supported (e.g., [Let's Encrypt](https://letsencrypt.org/))
 
@@ -60,7 +60,7 @@ You need to install [Caddy](https://caddyserver.com/)
 
 Configuration examples:
 
-Caddy (v1):
+#### Caddy (v1):
 ```
 <your domain> {
   proxy / http://<ip/server address>:<port> {
@@ -69,7 +69,7 @@ Caddy (v1):
 }
 ```
 
-Caddy (v2):
+#### Caddy (v2):
 ```
 <your domain> {
   reverse_proxy http://<ip/server address>:<port>

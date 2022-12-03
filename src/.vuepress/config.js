@@ -29,6 +29,9 @@ module.exports = {
     },
     '/ru/': {
       lang: 'ru-RU'
+    },
+    '/ua/': {
+      lang: 'uk-UA'
     }
   },
 
@@ -254,6 +257,118 @@ module.exports = {
             },
             {
               title: 'Инструкции',
+              collapsable: false,
+              sidebarDepth: 2,
+              children: [
+                '',
+                'users',
+                'import',
+                'library',
+                'metadata',
+                'read-progress',
+                'admin',
+                'samba',
+                'google-drive',
+                'book-info-scheme',
+                'rest-api'
+              ]
+            }
+          ],
+        }
+      },
+      '/ua/': {
+        // text for the language dropdown
+        selectText: 'Мови',
+        // label for this locale in the language dropdown
+        label: 'Українська',
+        // Aria Label for locale in the dropdown
+        ariaLabel: 'Мови',
+        nav: [
+          {
+            text: 'Домашня сторінка',
+            link: '/ua/',
+          },
+          {
+            text: 'Встановлення',
+            link: '/ua/installation/',
+          },
+          {
+            text: 'Інструкції',
+            link: '/ua/guides/',
+          },
+          {
+            text: 'Telegram',
+            link: 'https://t.me/atsumeru_app'
+          }
+        ],
+        sidebar: {
+          '/ua/glossary/': [
+            {
+              title: 'Домашня сторінка',
+              path: '/',
+            },
+            {
+              title: 'Глосарій',
+              collapsable: false,
+              sidebarDepth: 2,
+              children: [
+                '',
+                'sort-types',
+                'content-types',
+                'genres',
+                'metadata-categories'
+              ]
+            },
+            {
+              title: 'Встановлення',
+              path: '/ua/installation/'
+            },
+            {
+              title: 'Інструкції',
+              path: '/ua/guides/',
+            }
+          ],
+          '/ua/installation/': [
+            {
+              title: 'Домашня сторінка',
+              path: '/',
+            },
+            {
+              title: 'Глосарій',
+              path: '/ua/glossary/'
+            },
+            {
+              title: 'Встановлення',
+              collapsable: false,
+              sidebarDepth: 2,
+              children: [
+                '',
+                'jar',
+                'access-server',
+                'server-settings',
+                'https'
+              ]
+            },
+            {
+              title: 'Інструкції',
+              path: '/ua/guides/',
+            }
+          ],
+          '/ua/guides/': [
+            {
+              title: 'Домашня сторінка',
+              path: '/ua/'
+            },
+            {
+              title: 'Глосарій',
+              path: '/ua/glossary/'
+            },
+            {
+              title: 'Встановлення',
+              path: '/ua/installation/'
+            },
+            {
+              title: 'Інструкції',
               collapsable: false,
               sidebarDepth: 2,
               children: [

@@ -2,7 +2,7 @@
 home: true
 heroText: Atsumeru (集める)
 heroImage: /assets/media/hero.png
-tagline: Free self-hosted mangas/comics/light novels media server
+tagline: Free open-source self-hosted mangas/comics/light novels media server
 actionText: Get Started →
 actionLink: /guides/
 features:
