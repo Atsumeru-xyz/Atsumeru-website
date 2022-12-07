@@ -4,7 +4,7 @@ After you start server, you need to fill it with your content. This process is v
 
 ## Import directory management
 
-Directory management window can be opened by clicking <MaterialIcon icon="file_open"/> on a panel of [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> and selecting `Directory Management`. In this window you can view list of added directories, [delete](./import.md#deleting-directory) and [add new](./import.md#adding-a-new-directory). Also, it is available to run selective import for individual directories with hints on which import mode will be run
+Directory management window can be opened by clicking <MaterialIcon icon="file_open"/> on a panel of [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> and selecting `Directory Management`. In this window you can view list of added directories, [delete](./import.md#deleting-directory) and [add new](./import.md#adding-a-new-directory). Also, it is available to run selective import for individual directories with hints on which import mode will be run
 
 :::c-tip
 For convenience, in addition under each directory displays the amount of content that is imported from it

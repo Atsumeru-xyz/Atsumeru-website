@@ -4,7 +4,7 @@
 
 ## Керування директоріями імпорту
 
-Вікно управління директоріями можна відкрити натиснувши <MaterialIcon icon="file_open"/> на панелі [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> і вибравши `Управління директоріями`. У цьому вікні можна переглянути список доданих директорій, [видаляти додані](./import.md#видалення-директоріі) і [додавати нові](./import.md#додавання-новоі-директоріі). Також, доступний запуск вибіркового імпортування для окремих директорій з підказками про те, який саме режим імпортування буде запущено
+Вікно управління директоріями можна відкрити натиснувши <MaterialIcon icon="file_open"/> на панелі [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> і вибравши `Управління директоріями`. У цьому вікні можна переглянути список доданих директорій, [видаляти додані](./import.md#видалення-директоріі) і [додавати нові](./import.md#додавання-новоі-директоріі). Також, доступний запуск вибіркового імпортування для окремих директорій з підказками про те, який саме режим імпортування буде запущено
 
 :::c-tip
 Для зручності, додатково під кожною директорією відображається кількість контенту, який з неї імпортовано

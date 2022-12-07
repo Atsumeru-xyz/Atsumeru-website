@@ -9,15 +9,15 @@ java -Dserver.port=<port> -jar Atsumeru-x.y.z.jar
 
 ## Configuring advanced features
 
-All server settings are made either through the configuration interface in [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> or by manually editing the `atsumeru.properties` configuration file, which located next to a `jar` file
+All server settings are made either through the configuration interface in [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> or by manually editing the `atsumeru.properties` configuration file, which located next to a `jar` file
 
 :::c-danger
-Manual editing of configuration file requires restarting server to apply settings. Changing settings via [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> is made immediately
+Manual editing of configuration file requires restarting server to apply settings. Changing settings via [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> is made immediately
 :::
 
 ## Setting up with Atsumeru Manager
 
-To configure server it is sufficient to connect to it via [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> and click <MaterialIcon icon="settings"/> on bottom panel of application to open window with available settings, an example of which is shown below
+To configure server it is sufficient to connect to it via [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> and click <MaterialIcon icon="settings"/> on bottom panel of application to open window with available settings, an example of which is shown below
 
 <img style="display: block; margin: 0 auto" src="/assets/media/en/installation/server-settings.png">
 <p style="text-align: center; font-size:75%">Settings editing interface via Atsumeru Manager</p>
@@ -35,7 +35,7 @@ The following describes available keys and their possible values, which can be c
 Allows loading volume lists along with read history for current user in `REST API' responses
 
 :::c-tip
-Function is used in applications [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png">, [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/> and [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/> to display number of volumes and current user's reading progress on `Series` cards in the `Series` lists
+Function is used in applications [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png">, [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/> and [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/> to display number of volumes and current user's reading progress on `Series` cards in the `Series` lists
 :::
 
 By default: `true`

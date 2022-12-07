@@ -4,7 +4,7 @@ Server allows you to create an unlimited number of users with different rights a
 
 ## User management
 
-To open user management window (create/edit/delete), press <MaterialIcon icon="person"/> on a panel of [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png">.
+To open user management window (create/edit/delete), press <MaterialIcon icon="person"/> on a panel of [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png">.
 
 In this window you can both change/delete users and create new ones
 

@@ -34,7 +34,7 @@ There is also a *special* `Dynamic category` - `Unsorted`. All content without s
 
 ## Categories
 
-In addition to (or as an alternative to) [Dynamic categories](./library.md#dynamic-categories) you can create your own `Categories` and move content there. By clicking <MaterialIcon icon="local_offer"/> on [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> panel `Category editor` will opens, where you can edit, delete and create new categories
+In addition to (or as an alternative to) [Dynamic categories](./library.md#dynamic-categories) you can create your own `Categories` and move content there. By clicking <MaterialIcon icon="local_offer"/> on [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> panel `Category editor` will opens, where you can edit, delete and create new categories
 
 <img style="display: block; margin: 0 auto" src="/assets/media/en/guides/categories-edit.png">
 <p style="text-align: center; font-size:75%">Category editor interface</p>

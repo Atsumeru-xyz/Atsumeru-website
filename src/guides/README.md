@@ -8,7 +8,7 @@ Very simple:
 - Install and run `Atsumeru` on your computer or NAS
 - Add directories with archives/books to the import list
 - Wait while `Atsumeru` processes the data
-- Connect to the server using a supported application (e.g., [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png">, [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/> or [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/>)
+- Connect to the server using a supported application (e.g., [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png">, [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/> or [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/>)
 - Enjoy comfortable reading!
 
 ## On what systems does Atsumeru work?

@@ -33,7 +33,7 @@ java -jar Atsumeru-x.y.z.jar
 На **Windows** системах можна використовувати `javaw` замість `java` для запуску сервера без відображення вікна командного рядка
 :::
 
-Після запуску, сервер буде доступний для управління з [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> і читання з підтримуваних додатків (наприклад, [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/> або [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/>) 
+Після запуску, сервер буде доступний для управління з [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> і читання з підтримуваних додатків (наприклад, [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/> або [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/>) 
 
 :::c-warning
 Перший запуск супроводжується створенням необхідних файлів  (кеш, налаштування, бази даних) поряд з `jar` файлом. Також, створюється користувач `Admin` з випадковим паролем, який один раз буде відображено в консолі. Рекомендується змінити цей пароль або створити нового Адміністратора, видаливши стандартного

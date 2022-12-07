@@ -12,7 +12,7 @@ A metadata format invented for `ComicRack` application, which is no longer in de
 `Title` `Circles` `Summary` `Volume` `Year` `Month` `Writer` `Publisher` `Genre` `Characters` `PageCount` 
 
 :::c-warning
-Due to fact that format is very outdated and it is almost pointless to expand it, an alternative metadata format [book_info.json](./metadata.md#book-info-json) has been developed on which `Atsumeru` and [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> relies
+Due to fact that format is very outdated and it is almost pointless to expand it, an alternative metadata format [book_info.json](./metadata.md#book-info-json) has been developed on which `Atsumeru` and [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> relies
 :::
 
 ### book_info.json
@@ -20,7 +20,7 @@ Due to fact that format is very outdated and it is almost pointless to expand it
 
 A specially developed metadata format for entire `Atsumeru` ecosystem. Format supports a large number of metadata fields for every taste and allows you to fill metadata not only for comics ([ComicInfo.xml](./metadata.md#comicinfo-xml) was developed for comics) but also for `Manga`, `Hentai` and `Ranobe`
 
-[Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> contains [metadata editor](./metadata.md#metadata-editor), which works with this particular metadata format
+[Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> contains [metadata editor](./metadata.md#metadata-editor), which works with this particular metadata format
 
 :::c-tip
 `Atsumeru` can also store and retrieve static unique hashes of `Archive` and `Serie` inside `atsumeru` object in metadata, which allow re-importing `Archives` and `Series` without binding to file path and without losing read history
@@ -33,7 +33,7 @@ Auxiliary metadata format for chapters in archives (one directory - one chapter)
 
 ## Metadata editor
 
-[Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> contains a powerful metadata editor in [book_info.json](./metadata.md#book-info-json) format
+[Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> contains a powerful metadata editor in [book_info.json](./metadata.md#book-info-json) format
 
 Several convenient and transparent editing modes are supported:
 - editing imported `Series` and `Archives` on server
@@ -79,7 +79,7 @@ Metadata file [book_info.json](./metadata.md#book-info-json) supports specifying
 
 ### Obtaining metadata from external sources
 
-[Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> also supports metadata parsing functionality from supported catalogs. Parsers are available for installation in **Repository**, which can be opened by clicking <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/earth.png"> on the top bar of application
+[Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> also supports metadata parsing functionality from supported catalogs. Parsers are available for installation in **Repository**, which can be opened by clicking <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/earth.png"> on the top bar of application
 
 To get metadata, in [editor](./metadata.md#metadata-editor) click on `Get metadata`, insert supported link to content in field and click <MaterialIcon icon="download"/>. 
 

@@ -9,15 +9,15 @@ java -Dserver.port=<порт> -jar Atsumeru-x.y.z.jar
 
 ## Настройка дополнительных функций
 
-Все настройки сервера производятся либо через интерфейс настройки в [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> либо через ручное редактирование файла конфигурации `atsumeru.properties`, который находится возле `jar` файла
+Все настройки сервера производятся либо через интерфейс настройки в [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> либо через ручное редактирование файла конфигурации `atsumeru.properties`, который находится возле `jar` файла
 
 :::c-danger
-Ручное редактирование файла конфигурации требует перезапуск сервера для применения настроек. Изменение настроек через [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> производится моментально
+Ручное редактирование файла конфигурации требует перезапуск сервера для применения настроек. Изменение настроек через [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> производится моментально
 :::
 
 ## Настройка с помощью Atsumeru Manager
 
-Для настройки сервера достаточно подключиться к нему через [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> и нажать <MaterialIcon icon="settings"/> на нижней панели приложения, чтобы открыть окно с доступными настройками, пример которого показан ниже
+Для настройки сервера достаточно подключиться к нему через [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> и нажать <MaterialIcon icon="settings"/> на нижней панели приложения, чтобы открыть окно с доступными настройками, пример которого показан ниже
 
 <img style="display: block; margin: 0 auto" src="/assets/media/ru/installation/server-settings.png">
 <p style="text-align: center; font-size:75%">Интерфейс редактирования настроек через Atsumeru Manager</p>
@@ -35,7 +35,7 @@ java -Dserver.port=<порт> -jar Atsumeru-x.y.z.jar
 Разрешает выгрузку списков томов вместе с историей чтения для текущего пользователя в ответах `REST API`
 
 :::c-tip
-Функция используется в приложениях [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png">, [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/> и [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/> для отображения количества томов и прогресса чтения текущего юзера на карточках `Серий` в списках `Серий`
+Функция используется в приложениях [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png">, [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/> и [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/> для отображения количества томов и прогресса чтения текущего юзера на карточках `Серий` в списках `Серий`
 :::
 
 По умолчанию: `true`

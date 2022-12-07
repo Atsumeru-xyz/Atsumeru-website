@@ -11,7 +11,7 @@
 `Title` `Circles` `Summary` `Volume` `Year` `Month` `Writer` `Publisher` `Genre` `Characters` `PageCount` 
 
 :::c-warning
-З огляду на те, що формат сильно застарів і розширювати його практично немає сенсу, було розроблено альтернативний формат метаданих [book_info.json](./metadata.md#book-info-json) на який спираються `Atsumeru` і [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png">
+З огляду на те, що формат сильно застарів і розширювати його практично немає сенсу, було розроблено альтернативний формат метаданих [book_info.json](./metadata.md#book-info-json) на який спираються `Atsumeru` і [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png">
 :::
 
 ### book_info.json
@@ -19,7 +19,7 @@
 
 Спеціально розроблений формат метаданих для всієї екосистеми `Atsumeru`. Формат підтримує велику кількість полів метаданих на будь-який смак і дає змогу наповнювати метаданими не тільки комікси ([ComicInfo.xml](./metadata.md#comicinfo-xml) був розроблений для коміксів), а також `Манги`, `Хентаю` і `Ранобе`
 
-[Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> містить [редактор метаданих](./metadata.md#редактор-метаданих), який працює саме з цим форматом метаданих
+[Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> містить [редактор метаданих](./metadata.md#редактор-метаданих), який працює саме з цим форматом метаданих
 
 :::c-tip
 `Atsumeru` також може зберігати і витягувати статичні унікальні хеші `Архіву` і `Серії` всередині об'єкта `atsumeru` у метаданих, які дають змогу переімпортувати `Архіви` і `Серії` без прив'язки до шляху файлу і без втрати історії читання
@@ -32,7 +32,7 @@
 
 ## Редактор метаданих
 
-[Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> містить потужний редактор метаданих у [book_info.json](./metadata.md#book-info-json) форматі
+[Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> містить потужний редактор метаданих у [book_info.json](./metadata.md#book-info-json) форматі
 
 Підтримується кілька зручних і прозорих режимів редагування:
 - редагування імпортованих `Серій` і `Архівів` на сервері
@@ -78,7 +78,7 @@
 
 ### Отримання метаданих із зовнішніх джерел
 
-[Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> також підтримує функціонал парсингу метаданих із підтримуваних каталогів. Парсери доступні для встановлення в **Репозиторії**, який можна відкрити натиснувши <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/earth.png"> на верхній панелі додатку
+[Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> також підтримує функціонал парсингу метаданих із підтримуваних каталогів. Парсери доступні для встановлення в **Репозиторії**, який можна відкрити натиснувши <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/earth.png"> на верхній панелі додатку
 
 Щоб отримати метадані необхідно в [редакторі](./metadata.md#редактор-метаданих) натиснути на `Отримати метадані`, вставити в поле підтримуване посилання на контент і натиснути <MaterialIcon icon="download"/> 
 

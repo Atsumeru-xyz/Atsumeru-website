@@ -4,7 +4,7 @@
 
 ## Керування користувачами
 
-Для відкриття вікна управління користувачами (створення/редагування/видалення) необхідно натиснути <MaterialIcon icon="person"/> на панелі [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png">.
+Для відкриття вікна управління користувачами (створення/редагування/видалення) необхідно натиснути <MaterialIcon icon="person"/> на панелі [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png">.
 
 У цьому вікні можна як змінити/видалити користувачів, так і створити нових
 

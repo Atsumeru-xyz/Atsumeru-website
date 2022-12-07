@@ -8,7 +8,7 @@
 - Установите и запустите `Atsumeru` на компьютере или NAS
 - Добавьте в список импорта директории с архивами/книгами
 - Подождите, пока `Atsumeru` обработает данные
-- Подключитесь к серверу используя поддерживаемое приложение (например, [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png">, [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/> или [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/>)
+- Подключитесь к серверу используя поддерживаемое приложение (например, [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png">, [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/> или [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/>)
 - Наслаждайтесь удобным чтением!
 
 ## На каких системах работает Atsumeru?

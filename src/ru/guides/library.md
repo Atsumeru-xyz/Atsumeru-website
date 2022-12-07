@@ -34,7 +34,7 @@
 
 ## Категории
 
-В добавок к (или как альтернатива) [Динамическим категориям](./library.md#динамические-категории) можно создавать свои `Категории` и перемещать туда контент. Нажав <MaterialIcon icon="local_offer"/> на панели [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> откроется `Редактор категорий` в котором можно изменять, удалять и создавать новые категории
+В добавок к (или как альтернатива) [Динамическим категориям](./library.md#динамические-категории) можно создавать свои `Категории` и перемещать туда контент. Нажав <MaterialIcon icon="local_offer"/> на панели [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> откроется `Редактор категорий` в котором можно изменять, удалять и создавать новые категории
 
 <img style="display: block; margin: 0 auto" src="/assets/media/ru/guides/categories-edit.png">
 <p style="text-align: center; font-size:75%">Интерфейс редактора категорий</p>

@@ -33,7 +33,7 @@ java -jar Atsumeru-x.y.z.jar
 On **Windows** systems you can use `javaw` instead of `java` to start server without displaying command line window
 :::
 
-Once started, server will be available for management from [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> and read from supported applications (e.g., [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/> or [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/>) 
+Once started, server will be available for management from [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> and read from supported applications (e.g., [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/> or [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/>) 
 
 :::c-warning
 The first startup is accompanied by creation of necessary files (cache, settings, databases) next to a `jar` file. Also, an `Admin` user is created with a random password, which will be displayed once in the console. It is recommended to change this password and/or create a new Administrator by removing default one
