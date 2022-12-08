@@ -46,6 +46,10 @@ This operation deletes all previously created users, so it is not recommended to
 
 ## Increasing memory limits
 
+:::c-danger
+The server will consume not much RAM even with large libraries. Change the memory limits only as a last resort when the server explicitly errors that it is not enough, otherwise you might run into all sorts of problems if you specify this parameter incorrectly!
+:::
+
 By default, `java' process gets a limited maximum amount of RAM it can use while running. Often, this is `~1 GB'. If there are problems with server, or if errors like `OutOfMemoryException` appear in the console/logs, you probably need to increase maximum amount of memory that `Atsumeru` can use
 
 To do this, add `-Xmx<size>` flag to server start command, where `<size>` can be any value of type `2048m` (Megabytes), `3g` (Gigabytes) and so on. For example, to start a server using up to `3GB` of memory, you would use following command:
