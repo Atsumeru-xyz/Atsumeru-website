@@ -33,6 +33,10 @@ java -jar Atsumeru-x.y.z.jar
 На **Windows** системах можно использовать `javaw` вместо `java` для запуска сервера без отображения окна коммандной строки
 :::
 
+:::c-danger
+На **Windows** системах иногда нужно обязательно после скачивания *Разблокировать* `jar` файл в его свойствах
+:::
+
 После запуска, сервер будет доступен для управления из [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> и чтения из поддерживаемых приложений (например, [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/> или [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/>) 
 
 :::c-warning
