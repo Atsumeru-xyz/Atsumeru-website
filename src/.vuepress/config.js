@@ -73,6 +73,10 @@ module.exports = {
             link: '/guides/',
           },
           {
+            text: 'GitHub',
+            link: 'https://github.com/AtsumeruDev'
+          },
+          {
             text: 'Telegram',
             link: 'https://t.me/atsumeru_app'
           }
@@ -185,6 +189,10 @@ module.exports = {
             link: '/ru/guides/',
           },
           {
+            text: 'GitHub',
+            link: 'https://github.com/AtsumeruDev'
+          },
+          {
             text: 'Telegram',
             link: 'https://t.me/atsumeru_app'
           }
@@ -295,6 +303,10 @@ module.exports = {
           {
             text: 'Інструкції',
             link: '/ua/guides/',
+          },
+          {
+            text: 'GitHub',
+            link: 'https://github.com/AtsumeruDev'
           },
           {
             text: 'Telegram',
