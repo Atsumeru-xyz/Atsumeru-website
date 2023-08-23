@@ -34,11 +34,32 @@ docker run -d \
     atsumerudev/atsumeru:latest
 ```
 
+### С помощью `Docker Compose`
+
+```
+version: '3.3'
+services:
+    atsumeru:
+        container_name: atsumeru
+        ports:
+            - '31337:31337'
+        volumes:
+            - '/path/to/your/library:/library'
+            - '/path/to/your/config:/app/config'
+            - '/path/to/your/db:/app/database'
+            - '/path/to/your/cache:/app/cache'
+            - '/path/to/your/logs:/app/logs'
+        restart: unless-stopped
+        image: 'atsumerudev/atsumeru:latest'
+```
+
+:::c-warning
 После запуска контейнера выполните команду
 ```
 docker logs atsumeru
 ```
 для того, чтобы узнать созданный пароль для пользователя `Admin`
+:::
 
 ## Конфигурация
 
@@ -65,6 +86,16 @@ docker logs atsumeru
 - удалите старый контейнер: `docker rm atsumeru`
 - пересоздайте контейнер используя те же параметры, которые были использованы ранее для создания старого контейнера
 - запустите новый контейнер: `docker start atsumeru`
+
+:::c-tip
+После обновления контейнера также можно удалить старые образы командой   
+`docker image prune`
+:::
+
+### С помощью `Docker Compose`
+
+- обновите все образы: `docker-compose pull` или обновите отдельный образ: `docker-compose pull atsumeru`
+- пусть `Compose` обновит все контейнеры, если необходимо: `docker-compose up -d` или обновите отдельный контейнер: `docker-compose up -d atsumeru`
 
 :::c-tip
 После обновления контейнера также можно удалить старые образы командой   

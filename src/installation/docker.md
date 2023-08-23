@@ -19,7 +19,7 @@ The image comes in different versions, which are labeled with tags:
 
 The following are sample snippets with explanations on how to create your container:
 
-### With `Docker`
+### Using `Docker`
 
 ```
 docker run -d \
@@ -34,13 +34,35 @@ docker run -d \
     atsumerudev/atsumeru:latest
 ```
 
+### Using `Docker Compose`
+
+```
+version: '3.3'
+services:
+    atsumeru:
+        container_name: atsumeru
+        ports:
+            - '31337:31337'
+        volumes:
+            - '/path/to/your/library:/library'
+            - '/path/to/your/config:/app/config'
+            - '/path/to/your/db:/app/database'
+            - '/path/to/your/cache:/app/cache'
+            - '/path/to/your/logs:/app/logs'
+        restart: unless-stopped
+        image: 'atsumerudev/atsumeru:latest'
+```
+
+:::c-warning
+
 After starting container, run command
 ```
 docker logs atsumeru
 ```
 to find out  created password for `Admin` user
+:::
 
-## Конфигурация
+## Configuration
 
 | Parameter                                                                    | Function                                                                     |
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------|
@@ -65,6 +87,16 @@ If you need to run several servers at once, create a container with a new name a
 - delete old container: `docker rm atsumeru`
 - recreate container using same parameters that were used to create the old container
 - start new container: `docker start atsumeru`
+
+:::c-tip
+After updating container, you can also delete old images with command   
+`docker image prune`
+:::
+
+### Using `Docker Compose`
+
+- update all images: `docker-compose pull` or update an individual image: `docker-compose pull atsumeru`
+- let `Compose` update all containers if necessary: `docker-compose up -d` or update an individual container: `docker-compose up -d atsumeru`
 
 :::c-tip
 After updating container, you can also delete old images with command   

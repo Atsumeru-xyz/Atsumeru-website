@@ -34,13 +34,34 @@ docker run -d \
     atsumerudev/atsumeru:latest
 ```
 
+### За допомогою `Docker Compose`
+
+```
+version: '3.3'
+services:
+    atsumeru:
+        container_name: atsumeru
+        ports:
+            - '31337:31337'
+        volumes:
+            - '/path/to/your/library:/library'
+            - '/path/to/your/config:/app/config'
+            - '/path/to/your/db:/app/database'
+            - '/path/to/your/cache:/app/cache'
+            - '/path/to/your/logs:/app/logs'
+        restart: unless-stopped
+        image: 'atsumerudev/atsumeru:latest'
+```
+
+:::c-warning
 Після запуску контейнера виконайте команду
 ```
 docker logs atsumeru
 ```
 для того, щоб дізнатися створений пароль для користувача `Admin`
+:::
 
-## Конфигурация
+## Конфігурація
 
 | Параметр                                                                     | Функція                                                                      |
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------|
@@ -65,6 +86,16 @@ docker logs atsumeru
 - видаліть старий контейнер: `docker rm atsumeru`
 - перестворіть контейнер, використовуючи ті ж параметри, які були використані раніше для створення старого контейнера
 - запустіть новий контейнер: `docker start atsumeru`
+
+:::c-tip
+Після оновлення контейнера також можна видалити старі образи командою   
+`docker image prune`
+:::
+
+### За допомогою `Docker Compose`
+
+- оновіть усі образи: `docker-compose pull` або оновіть окремий образ: `docker-compose pull atsumeru`
+- нехай `Compose` оновить усі контейнери, якщо необхідно: `docker-compose up -d` або оновіть окремий контейнер: `docker-compose up -d atsumeru`
 
 :::c-tip
 Після оновлення контейнера також можна видалити старі образи командою   
