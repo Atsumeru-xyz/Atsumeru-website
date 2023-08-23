@@ -23,15 +23,15 @@
 
 ```
 docker run -d \
-	--name=atsumeru \
-	-p 31337:31337 \
-	-v /path/to/your/library:/library \
-	-v /path/to/your/config:/app/config \
-	-v /path/to/your/db:/app/database \
-	-v /path/to/your/cache:/app/cache \
-	-v /path/to/your/logs:/app/logs \
-	--restart unless-stopped \
-	atsumerudev/atsumeru:latest
+    --name=atsumeru \
+    -p 31337:31337 \
+    -v /path/to/your/library:/library \
+    -v /path/to/your/config:/app/config \
+    -v /path/to/your/db:/app/database \
+    -v /path/to/your/cache:/app/cache \
+    -v /path/to/your/logs:/app/logs \
+    --restart unless-stopped \
+    atsumerudev/atsumeru:latest
 ```
 
 Після запуску контейнера виконайте команду
