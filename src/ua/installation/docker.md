@@ -20,12 +20,7 @@
 Нижче наведено приклади сніпетів із поясненнями про те, як створити свій контейнер:
 
 ### За допомогою `Docker`
-Створення тому для кешу обкладинок:
-```
-docker volume create atsumeru_cache
-```
 
-Створення та запуск контейнера:
 ```
 docker run -d \
 	--name=atsumeru \
@@ -33,8 +28,8 @@ docker run -d \
 	-v /path/to/your/library:/library \
 	-v /path/to/your/config:/app/config \
 	-v /path/to/your/db:/app/database \
+	-v /path/to/your/cache:/app/cache \
 	-v /path/to/your/logs:/app/logs \
-	-v atsumeru_cache:/app/cache \
 	--restart unless-stopped \
 	atsumerudev/atsumeru:latest
 ```
@@ -54,6 +49,7 @@ docker logs atsumeru
 | `-v /path/to/your/library`                                                   | Шлях до файлів бібліотеки (архівів)                                          |
 | `-v /path/to/your/db`                                                        | Директорія, де сервер зберігатиме свої бази даних                            |
 | `-v /path/to/your/config`                                                    | Директорія, де сервер зберігатиме свої файли конфігурації                    |
+| `-v /path/to/your/cache`                                                     | Директорія, де сервер зберігатиме свій кеш обкладинок                        |
 | `-v /path/to/your/logs`                                                      | Директорія, де сервер зберігатиме свої логи                                  |
 
 :::c-tip

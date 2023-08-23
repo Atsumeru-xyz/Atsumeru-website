@@ -21,13 +21,6 @@
 
 ### С помощью `Docker`
 
-Создание тома для кеша обложек:
-```
-docker volume create atsumeru_cache
-```
-
-Создание и запуск контейнера:
-
 ```
 docker run -d \
 	--name=atsumeru \
@@ -35,8 +28,8 @@ docker run -d \
 	-v /path/to/your/library:/library \
 	-v /path/to/your/config:/app/config \
 	-v /path/to/your/db:/app/database \
+	-v /path/to/your/cache:/app/cache \
 	-v /path/to/your/logs:/app/logs \
-	-v atsumeru_cache:/app/cache \
 	--restart unless-stopped \
 	atsumerudev/atsumeru:latest
 ```
@@ -56,6 +49,7 @@ docker logs atsumeru
 | `-v /path/to/your/library`                                                   | Путь к файлам библиотеки (архивам)                                           |
 | `-v /path/to/your/db`                                                        | Директория, где сервер будет хранить свои базы данных                        |
 | `-v /path/to/your/config`                                                    | Директория, где сервер будет хранить свои файлы конфигурации                 |
+| `-v /path/to/your/cache`                                                     | Директория, где сервер будет хранить свой кеш обложек                        |
 | `-v /path/to/your/logs`                                                      | Директория, где сервер будет хранить свои логи                               |
 
 :::c-tip

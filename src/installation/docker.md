@@ -20,12 +20,7 @@ The image comes in different versions, which are labeled with tags:
 The following are sample snippets with explanations on how to create your container:
 
 ### With `Docker`
-Creating a volume for cover cache:
-```
-docker volume create atsumeru_cache
-```
 
-Creating and running container:
 ```
 docker run -d \
 	--name=atsumeru \
@@ -33,8 +28,8 @@ docker run -d \
 	-v /path/to/your/library:/library \
 	-v /path/to/your/config:/app/config \
 	-v /path/to/your/db:/app/database \
+	-v /path/to/your/cache:/app/cache \
 	-v /path/to/your/logs:/app/logs \
-	-v atsumeru_cache:/app/cache \
 	--restart unless-stopped \
 	atsumerudev/atsumeru:latest
 ```
@@ -54,6 +49,7 @@ to find out  created password for `Admin` user
 | `-v /path/to/your/library`                                                   | Path to your library files                                                   |
 | `-v /path/to/your/db`                                                        | Directory where server will store its databases                              |
 | `-v /path/to/your/config`                                                    | Directory where server will store its configuration files                    |
+| `-v /path/to/your/cache`                                                     | Directory where server will store its covers cache                           |
 | `-v /path/to/your/logs`                                                      | Directory where server will store its logs                                   |
 
 :::c-tip
