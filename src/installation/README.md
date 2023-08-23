@@ -9,6 +9,7 @@ Installing `Atsumeru` is very simple and consists of a couple steps
 ### Main installation methods
 
 - Using `Java` and [Jar](./jar.md) server file
+- Using [Docker](./docker.md) container with `Docker` or `Docker Compose`
 
 ### Additional required applications
 
