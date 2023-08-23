@@ -124,6 +124,7 @@ module.exports = {
               children: [
                 '',
                 'jar',
+                'docker',
                 'access-server',
                 'server-settings',
                 'https'
@@ -240,6 +241,7 @@ module.exports = {
               children: [
                 '',
                 'jar',
+                'docker',
                 'access-server',
                 'server-settings',
                 'https'
@@ -356,6 +358,7 @@ module.exports = {
               children: [
                 '',
                 'jar',
+                'docker',
                 'access-server',
                 'server-settings',
                 'https'
