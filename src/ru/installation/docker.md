@@ -40,7 +40,6 @@ docker run -d \
 version: '3.3'
 services:
     atsumeru:
-        container_name: atsumeru
         ports:
             - '31337:31337'
         volumes:
