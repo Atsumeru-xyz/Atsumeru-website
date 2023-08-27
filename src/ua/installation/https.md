@@ -2,7 +2,7 @@
 
 За необхідності відкрити доступ до `Atsumeru` серверу поза локальною мережею, категорично рекомендується захистити запити до нього за допомогою `https` (особливо з огляду на те, що основний спосіб авторизації - `Basic`)
 
-[Spring Boot](https://spring.io/projects/spring-boot), який є серцем сервера, підтримує `https` з коробки, але його необхідно налаштовувати самому, а self-signed сертифікати не підтримуються (наприклад, [Let's Encrypt](https://letsencrypt.org/))
+[Spring Boot](https://spring.io/projects/spring-boot), який є серцем сервера, підтримує `https` з коробки, але його необхідно налаштовувати самому, а self-signed та [Let's Encrypt](https://letsencrypt.org/) сертифікати не підтримуються
 
 ## Reverse Proxy
 
@@ -60,17 +60,21 @@
 
 Приклади конфігурації
 
-#### Caddy (v1):
+#### Caddy (v2):
 ```
 <свій домен> {
-  proxy / http://<ip/адрес сервера>:<порт> {
-    transparent
-  }
+  reverse_proxy http://<ip/адрес сервера>:<порт>
 }
 ```
 
-#### Caddy (v2):
+З HTTPS:
 ```
+{
+  ваш@email.com
+  http_port 80
+  https_port 443
+}
+
 <свій домен> {
   reverse_proxy http://<ip/адрес сервера>:<порт>
 }
