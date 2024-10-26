@@ -70,16 +70,6 @@ Progress of importing and caching covers will continue to be displayed in consol
 
 By default: `false`
 
-#### disable_bonjour_service `<true/false>`
-
-Completely disables server discovery service using `Bonjour/Zeroconf` protocol ([Bonjour](https://github.com/mannodermaus/RxBonjour))
-
-:::c-tip
-When service is enabled, `Atsumeru` supported applications will be able (if implemented) to detect server in local network for fast connection
-:::
-
-By default: `false`
-
 #### disable_watch_for_modified_files `<true/false>`
 
 Disables monitoring changes of imported files in file system with [FileSystemWatcher](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/devtools/filewatch/FileSystemWatcher.html). In this case automatic `Search for new archives` will be started only after deleting or adding new files

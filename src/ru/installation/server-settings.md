@@ -70,16 +70,6 @@ java -Dserver.port=<порт> -jar Atsumeru-x.y.z.jar
 
 По умолчанию: `false`
 
-#### disable_bonjour_service `<true/false>`
-
-Полностью отключает сервис обнаружения сервера с помощью `Bonjour/Zeroconf` протокола ([Bonjour](https://github.com/mannodermaus/RxBonjour))
-
-:::c-tip
-Когда сервис включен, поддерживаемые `Atsumeru` приложения смогут (при наличии реализации) обнаруживать сервер в локальной сети для быстрого подключения
-:::
-
-По умолчанию: `false`
-
 #### disable_watch_for_modified_files `<true/false>`
 
 Отключает наблюдение за изменениями импортированных файлов в файловой системе с помощью [FileSystemWatcher](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/devtools/filewatch/FileSystemWatcher.html). В таком случае автоматический `Поиск новых архивов` будет запущен только после удаления или добавления новых файлов

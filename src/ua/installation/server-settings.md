@@ -2,7 +2,7 @@
 
 ## Зміна порту
 
-За замовчуванням  `Atsumeru` запускається на порту `31337`, але іноді його потрібно змінити (порт зайнятий, не підходить, потрібен запуск декількох серверів). Для зміни порту необхідно додати аргумент `-Dserver.port=<порт>` до команди запуску сервера, де `<порт>` - бажаний порт. Наприклад:
+За усталеним налаштуванням  `Atsumeru` запускається на порту `31337`, але іноді його потрібно змінити (порт зайнятий, не підходить, потрібен запуск декількох серверів). Для зміни порту необхідно додати аргумент `-Dserver.port=<порт>` до команди запуску сервера, де `<порт>` - бажаний порт. Наприклад:
 ```
 java -Dserver.port=<порт> -jar Atsumeru-x.y.z.jar
 ```
@@ -38,7 +38,7 @@ java -Dserver.port=<порт> -jar Atsumeru-x.y.z.jar
 Функція використовується в додатках [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png">, [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/> і [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/> для відображення кількості томів і прогресу читання поточного користувача на картках у списках `Серій`
 :::
 
-За замовчуванням: `true`
+Усталене налаштування: `true`
 
 #### allow_loading_list_with_chapters `<true/false>`
 
@@ -48,7 +48,7 @@ java -Dserver.port=<порт> -jar Atsumeru-x.y.z.jar
 Працює тільки з увімкненим [allow_loading_list_with_volumes](./server-settings.md#allow-loading-list-with-volumes-true-false)
 :::
 
-За замовчуванням: `true`
+Усталене налаштування: `true`
 
 #### disable_chapters `<true/false>`
 
@@ -58,36 +58,26 @@ java -Dserver.port=<порт> -jar Atsumeru-x.y.z.jar
 Вимкнення імпорту глав істотно прискорює імпортування, активуючи багатопотоковий імпорт
 :::
 
-За замовчуванням: `false`
+Усталене налаштування: `false`
 
 #### disable_request_logging_into_console `<true/false>`
 
-Повністю відключає логгування запитів до `REST API` в консоль і залишає тільки логгування в лог-файл `requests.log`
+Повністю відключає логування запитів до `REST API` в консоль і залишає тільки логгування в лог-файл `requests.log`
 
 :::c-tip
 Прогрес імпортування та кешування обкладинок продовжить відображатися в консолі
 :::
 
-За замовчуванням: `false`
-
-#### disable_bonjour_service `<true/false>`
-
-Повністю відключає сервіс виявлення сервера за допомогою `Bonjour/Zeroconf` протоколу ([Bonjour](https://github.com/mannodermaus/RxBonjour))
-
-:::c-tip
-Коли сервіс увімкнено, підтримувані `Atsumeru` додатки зможуть (за наявності реалізації) виявляти сервер у локальній мережі для швидкого підключення
-:::
-
-За замовчуванням: `false`
+Усталене налаштування: `false`
 
 #### disable_watch_for_modified_files `<true/false>`
 
 Вимикає спостереження за змінами імпортованих файлів у файловій системі за допомогою [FileSystemWatcher](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/devtools/filewatch/FileSystemWatcher.html). У такому разі автоматичний `Пошук нових архівів` буде запущено тільки після видалення або додавання нових файлів
 
-За замовчуванням: `false`
+Усталене налаштування: `false`
 
 #### disable_file_watcher `<true/false>`
 
 Повністю відключає сервіс спостереження за змінами імпортованих файлів у файловій системі за допомогою [FileSystemWatcher](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/devtools/filewatch/FileSystemWatcher.html). У такому разі `Пошук нових архівів` потрібно буде запускати вручну після внесення змін 
 
-За замовчуванням: `false`
+Усталене налаштування: `false`
