@@ -3,7 +3,7 @@
 ## Установка Java
 
 :::c-tip
-Для работы `Atsumeru` необходима установленная **Java** версии **8+** (**1.8+**). Подойдет как [Oracle Java](https://www.java.com/ru/download/manual.jsp), так и [OpenJDK](https://www.openlogic.com/openjdk-downloads)  
+Для работы `Atsumeru` необходима установленная **Java** версии **17+**. Подойдет как [Oracle Java](https://www.java.com/ru/download/manual.jsp), так и [OpenJDK](https://www.openlogic.com/openjdk-downloads)  
 Узнать установлена ли **Java** и ее версию можно с помощью команды `java -version`
 :::
 

@@ -3,7 +3,7 @@
 ## Installing Java
 
 :::c-tip
-`Atsumeru` requires installed **Java** version **8+** (**1.8+**). Both [Oracle Java](https://www.java.com/en/download/manual.jsp) and [OpenJDK](https://www.openlogic.com/openjdk-downloads) are suitable  
+`Atsumeru` requires installed **Java** version **17+**. Both [Oracle Java](https://www.java.com/en/download/manual.jsp) and [OpenJDK](https://www.openlogic.com/openjdk-downloads) are suitable  
 To find out if **Java** is installed and its version, use command `java -version`
 :::
 
