@@ -8,7 +8,12 @@
 `<порт>` усталене налаштування - `31337`
 :::
 
-:::c-danger
-Веб-інтерфейс для управління сервером і читання контенту **недоступний**  
-На даний момент його замінюють нативні додатки ([Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png">, [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/>, [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/>)
-:::
+## Веб-інтерфейс
+
+Веб-інтерфейс доступний за адресов `http://<ip/адрес сервера>:порт`
+
+## Нативні додатки
+
+Також можна використовувати нативні додатки для доступу до контенту та керування сервером:  
+[Atsumeru Manager](https://github.com/Atsumeru-xyz/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png">  
+[Atsumeru](https://github.com/Atsumeru-xyz/AtsumeruAndroid) <MaterialIcon icon="android"/>

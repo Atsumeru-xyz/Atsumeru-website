@@ -10,10 +10,9 @@
 - Використання `Java` і [Jar](./jar.md) файлу сервера
 - Використання [Docker](./docker.md) контейнеру з `Docker` чи `Docker Compose`
 
-### Додаткові необхідні додатки
+### Додаткові додатки
 
-Так як сервер не надає WebUI для управління сервером, додатково необхідно завантажити [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> через який і відбуватиметься управління
-
+[Atsumeru Manager](https://github.com/Atsumeru-xyz/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> через який можливо керувати сервером
 
 Додаток не потребує встановлення, але вимагає наявності встановленого [Microsoft Visual C++ 2010 (x64)](https://www.microsoft.com/ru-ru/download/details.aspx?id=26999) і [Microsoft Visual C++ 2015 (x64)](https://www.microsoft.com/ru-ru/download/details.aspx?id=53840) для Windows систем
 

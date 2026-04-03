@@ -4,12 +4,12 @@
   "description": "Free self-hosted mangas/comics/light novels media server",
   "main": "index.js",
   "authors": {
-    "name": "AtsumeruDev",
+    "name": "Atsumeru-xyz",
     "email": "atsumeru.dev@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AtsumeruDev/Atsumeru-website.git"
+    "url": "git+https://github.com/Atsumeru-xyz/Atsumeru-website.git"
   },
   "scripts": {
     "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev src",

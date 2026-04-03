@@ -4,11 +4,28 @@
  * ref：https://v1.vuepress.vuejs.org/config/#index-styl
  */
 
+:root {
+  --accentColor: #b5305f !important;
+}
+
+html.theme-dark {
+  --accentColor: #b5305f !important;
+}
+
 .home
 .hero
     text-align center
     img
       max-width 150px!important
+
+.home .hero .action-button {
+  background-color: var(--accentColor) !important;
+  border-bottom: 2px solid #8a2448 !important;
+}
+
+.home .hero .action-button:hover {
+  background-color: #d13a6e !important;
+}
 
 .custom-block
   padding-left 1.25rem

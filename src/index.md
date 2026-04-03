@@ -11,6 +11,6 @@ features:
 - title: Supported formats
   details: Atsumeru supports CBZ, CBR, CB7, PDF, ePub (with limitations), FB2 (with limitations) and Djvu file formats. Metadata for your library can be saved into ComicInfo.xml or powerfull book_info.json (designed for Atsumeru) files
 - title: Read & sync
-  details: Read your content with comfort and two-way history syncronization support in Atsumeru app (Android), AniLabX (Android) or Atsumeru Manager (Windows/Linux)
-footer: Made by AtsumeruDev with ❤️
+  details: Read your content with comfort and two-way history synchronization support in WebUI and Atsumeru app (Android) or Atsumeru Manager (Windows/Linux)
+footer: Made with ❤️
 ---

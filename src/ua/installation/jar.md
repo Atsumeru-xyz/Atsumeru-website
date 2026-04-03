@@ -21,7 +21,7 @@
 
 ## Запуск
 
-Запустити `Atsumeru` можна самостійно з `jar` файлу. Актуальну версію можна завантажити із секції [Releases](https://github.com/AtsumeruDev/Atsumeru/releases) в GitHub репозиторії
+Запустити `Atsumeru` можна самостійно з `jar` файлу. Актуальну версію можна завантажити із секції [Releases](https://github.com/Atsumeru-xyz/Atsumeru/releases) в GitHub репозиторії
 
 Для запуску сервера можна використовувати таку команду (замініть `x.y.z` на версію завантаженного файла):
 
@@ -37,7 +37,7 @@ java -jar Atsumeru-x.y.z.jar
 На **Windows** системах іноді потрібно обов'язково після скачування *Розблокувати* `jar` файл у його властивостях
 :::
 
-Після запуску, сервер буде доступний для управління з [Atsumeru Manager](https://github.com/AtsumeruDev/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> і читання з підтримуваних додатків (наприклад, [Atsumeru](https://github.com/AtsumeruDev/AtsumeruAndroid) <MaterialIcon icon="android"/> або [AniLabX](https://github.com/CrazyXacker/anilabx) <MaterialIcon icon="android"/>) 
+Після запуску, сервер буде доступний для управління з [Atsumeru Manager](https://github.com/Atsumeru-xyz/AtsumeruManager) <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/windows.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/penguin.png"> <img style="position: relative; top: 6px;" width="24" height="24" src="/assets/media/icons/apple.png"> і читання з підтримуваних додатків (наприклад, [Atsumeru](https://github.com/Atsumeru-xyz/AtsumeruAndroid) <MaterialIcon icon="android"/>) 
 
 :::c-warning
 Перший запуск супроводжується створенням необхідних файлів  (кеш, налаштування, бази даних) поряд з `jar` файлом. Також, створюється користувач `Admin` з випадковим паролем, який один раз буде відображено в консолі. Рекомендується змінити цей пароль або створити нового Адміністратора, видаливши стандартного
