@@ -28,9 +28,8 @@ export default {
 	</div>
 </template>
 
-<style lang="scss">
-$material-design-icons-font-directory-path: "~material-design-icons-iconfont/dist/fonts/";
-@import "~material-design-icons-iconfont/src/material-design-icons";
+<style lang="css">
+@import "~material-design-icons-iconfont/dist/material-design-icons.css";
 </style>
 
 <style lang="stylus">
